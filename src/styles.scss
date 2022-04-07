@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+$color1: #1DB954;
+$color2: #323232;
+$color3: #000000;
+$color4: #FFFFFF;
+$color5:#181818;
+$fontSize1: 1rem;
+$fontSize2:1.2rem;
+$fontSize3: 1.8rem;
+$shadow1: rgb(0 0 0 / 35%) 0px 8px 24px;
+$shadow2: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+$borderRadius1:.25rem;
+$borderRadius2:.5rem;
+$fontFamily1: 'Poppins',sans-serif;
+$animation1: 200ms;
+
+html,body{
+    
+    margin: 0;
+    padding: 0;
+    background-color: $color3;
+    font-family: $fontFamily1;
+    font-size: $fontSize1;
+    color: $color4;
+}
