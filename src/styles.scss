@@ -3,6 +3,7 @@ $color2: #323232;
 $color3: #000000;
 $color4: #FFFFFF;
 $color5:#181818;
+$color6: #b5b4b4;
 $fontSize1: 1rem;
 $fontSize2:1.2rem;
 $fontSize3: 1.8rem;
@@ -14,11 +15,10 @@ $fontFamily1: 'Poppins',sans-serif;
 $animation1: 200ms;
 
 html,body{
-    
     margin: 0;
     padding: 0;
     background-color: $color3;
     font-family: $fontFamily1;
     font-size: $fontSize1;
-    color: $color4;
+    color: $color6;
 }

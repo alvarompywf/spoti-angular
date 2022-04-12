@@ -1,0 +1,28 @@
+<h1>dahdkjshaj</h1>
+<div class="container">
+    <ul>
+        <div class="first-menu">
+            <li *ngFor="let item of MainMenu.navBarItems">
+                <i [ngClass]="['uil',item.icon]"></i>
+                <span>{{item.name}}</span>
+            </li>
+        </div>
+    </ul>
+
+    <ul>
+        <div class="first-menu">
+            <li *ngFor="let item of MainMenu.navBarItems2">
+                <i [ngClass]="['uil',item.icon]"></i>
+                <span>{{item.name}}</span>
+            </li>
+        </div>
+    </ul>
+    <div class="line"></div>
+    <ul>
+        <div class="first-menu">
+            <li *ngFor="let item of MainMenu.listas">
+               <span>{{item.name}}</span>
+            </li>
+        </div>
+    </ul>
+</div>
