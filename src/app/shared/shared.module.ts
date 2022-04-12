@@ -3,7 +3,8 @@ import { CommonModule } from '@angular/common';
 import { HeaderUserComponent } from './components/header-user/header-user.component';
 import { MediaPlayerComponent } from './components/media-player/media-player.component';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
-
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 
 
 @NgModule({
@@ -13,7 +14,7 @@ import { SideBarComponent } from './components/side-bar/side-bar.component';
     SideBarComponent
   ],
   imports: [
-    CommonModule
+    CommonModule, FlexLayoutModule,MatProgressBarModule
   ]
   , exports: [
     SideBarComponent,

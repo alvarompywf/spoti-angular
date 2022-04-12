@@ -3,12 +3,13 @@ li {
 }
 i {
     margin-right: 16px;
-    font-size: 28px;
+    font-size: 25px;
+    
 }
 .container{
     height: 100%;
     max-width: 280px;
-    
+    position: static;
 }
 .line{
     height: 1px;
@@ -17,6 +18,13 @@ i {
 }
 
 li:hover{
-
     color: white;
+}
+span{
+    font-size: 13px;
+    
+}
+
+.thirst-menu{
+    line-height: 40px;
 }

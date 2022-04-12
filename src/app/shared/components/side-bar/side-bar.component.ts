@@ -7,38 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SideBarComponent implements OnInit {
 
-  //   navBarItems: Array<any> = [
-  //     {
-  //       name: "Home",
-  //       icon: "uil-estate"
-  //     }, {
-  //       name: "Buscar",
-  //       icon: "uil-search"
-  //     },{
-  //       name: "Bliblioteca",
-  //       icon: "uil-books"
-  //     }
-  //   ];
-
-  //   navBarItems2: Array<any> = [
-  //     {
-  //       name: "Crear Lista",
-  //       icon: "uil-plus"
-  //     }, {
-  //       name: "Canciones que me gustan",
-  //       icon: "uil-heart"
-  //     }
-  //   ];
-  //  listas: Array<any> = [
-  //     {
-  //       name: "C.Tangana sound",
-  //       link: ""
-  //     }, {
-  //       name: "Yung Beef list",
-  //       link: ""
-  //     }
-  //   ];
-
   MainMenu: {
     navBarItems: Array<any>, navBarItems2: Array<any>, listas: Array<any>
   } = {
