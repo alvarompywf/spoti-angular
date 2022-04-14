@@ -10,7 +10,7 @@ export class HomePagesComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log("dsakda")
+
   }
 
 }

@@ -42,6 +42,10 @@ export class SideBarComponent implements OnInit {
           name: "Yung Beef list",
           router: ['/']
         }
+        , {
+          name: "Descubrimiento Semanal",
+          router: ['/']
+        }
       ]
     }
 
@@ -49,7 +53,6 @@ export class SideBarComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log("dasndaln");
   }
 
 }

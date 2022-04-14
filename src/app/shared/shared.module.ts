@@ -5,21 +5,22 @@ import { MediaPlayerComponent } from './components/media-player/media-player.com
 import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { SectionGenericComponent } from './components/section-generic/section-generic.component';
 
 
 @NgModule({
   declarations: [
     HeaderUserComponent,
     MediaPlayerComponent,
-    SideBarComponent
+    SideBarComponent,
+    SectionGenericComponent
   ],
   imports: [
-    CommonModule, FlexLayoutModule,MatProgressBarModule
-  ]
-  , exports: [
+    CommonModule, FlexLayoutModule, MatProgressBarModule
+  ], exports: [
     SideBarComponent,
     MediaPlayerComponent,
-    HeaderUserComponent
+    HeaderUserComponent, SectionGenericComponent
   ]
 })
 export class SharedModule { }

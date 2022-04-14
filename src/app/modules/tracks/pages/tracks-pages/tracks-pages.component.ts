@@ -10,6 +10,7 @@ export class TracksPagesComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log("dajkdamkas")
   }
 
 }

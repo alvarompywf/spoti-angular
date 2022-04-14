@@ -22,23 +22,38 @@
     font-size: 20px;
 }
 
-.other{
-
+.other {
     font-size: 20px;
     margin-right: 10px;
-    i{
+    i {
         margin-right: 15px;
     }
 }
-.player{
+.player {
     font-size: 20px;
-    i{
-            
-    }
-    .line-media{
+    .line-media {
         height: 2px;
         width: 400px;
         background-color: aliceblue;
     }
+}
+.line {
+    margin-top: 10px;
+    height: 3px;
+    width: 400px;
+    background-color: rgb(132, 132, 132);
+    border-radius: 50px;
+}
+.lineSecond {
+    background-color: aliceblue;
+    height: 2px;
+    border-radius: 50px;
+}
 
+.reproductor{
+padding-left: 45%;
+
+}
+.time{
+    font-size: 10px;
 }

@@ -13,18 +13,27 @@
 
     </div>
     <div class="player">
-        <i class="uil uil-angle-left-b"></i>
-        <i class="uil uil-play"></i>
-        <i class="uil uil-angle-right-b"></i>
+        <div class="reproductor">
+            <i class="uil uil-angle-left-b"></i>
+            <i class="uil uil-play"></i>
+            <i class="uil uil-angle-right-b"></i>
+        </div>
+
 
         <div>
 
-            <mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
-            <div class="time">00</div>
+            <div class="line">
+                <div class="lineSecond" [style.width]="90+'%'"></div>
+            </div>
+
             <span #progressBar class="time-progress">
                 <span class="time-progress-live" [style.width]="100+'%'"></span>
             </span>
-            <div class="time">{{99}}</div>
+            <div class="time" fxLayout fxLayout="row" fxLayoutAlign="space-between center">
+                <div>2:20</div>
+                <div>3:13</div>
+            </div>
+
 
         </div>
 
